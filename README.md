@@ -24,6 +24,9 @@ This project consists of several key components working together to create a com
 **2. Frontend:**
 *   (e.g., Next.js & Tailwind CSS)
 
+**3. UI/UX:**
+*   (e.g., Figma)
+
 ## 🧠 AI Workflow
 
 The AI pipeline processes data through the following workflow:
@@ -87,5 +90,3 @@ Follow these steps to set up and run the AI server locally.
     ```
     *   The server will be available at `http://127.0.0.1:8000`.
     *   Interactive API documentation (via Swagger UI) is available at `http://127.0.0.1:8000/docs`.
-
----````
