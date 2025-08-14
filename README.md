@@ -1,4 +1,4 @@
-# PH-AIC: The AI Engine
+# SIAGA: The AI Engine
 
 **Project for the AI Innovation Challenge - COMPFEST 17**
 **Theme: Smart City and Urban Living**
@@ -7,11 +7,11 @@
 
 ## 🌟 Project Overview
 
-**PH-AIC (Project Hackathon - AI Innovation Comfest)** is an innovative AI-powered system designed to revolutionize how cities handle medical emergencies and public health incidents. Our vision is to create smarter, safer, and more resilient urban healthcare systems through real-time data analysis.
+**SIAGA** is an innovative AI-powered system designed to revolutionize how cities handle medical emergencies and public health incidents. Our vision is to create smarter, safer, and more resilient urban healthcare systems through real-time data analysis.
 
 ### The Role of this Repository
 
-This repository contains the **standalone AI Engine** that serves as the "brain" for the PH-AIC project. It is a backend service responsible for all machine learning inference. It exposes a robust API that the main frontend application consumes.
+This repository contains the **standalone AI Engine** that serves as the "brain" for the SIAGA project. It is a backend service responsible for all machine learning inference. It exposes a robust API that the main frontend application consumes.
 
 *   **Frontend & Main Project Repository:** [Link to your teammate's GitHub repository here]
 
@@ -49,10 +49,10 @@ Follow these steps to set up and run the AI server locally.
 
 ### Installation & Setup
 
-1.  **Clone the Repository:**
+1.  **Clone the Repository (Gunakan URL Baru):**
     ```bash
-    git clone https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME].git
-    cd [YOUR_REPO_NAME]
+    git clone https://github.com/cybort18/SIAGA.git
+    cd SIAGA
     ```
 
 2.  **Set Up Git LFS:**
@@ -77,22 +77,22 @@ Follow these steps to set up and run the AI server locally.
 5.  **Set Up Google Cloud Credentials:**
     *   In the Google Cloud Console, create a service account and enable the **Cloud Speech-to-Text API**.
     *   Download the API key in JSON format.
-    *   Rename it to `gcp-credentials.json` and place it in the project's **root directory**. This file is already in `.gitignore`.
+    *   Rename it to `gcp-credentials.json` and place it in the project's **root directory**.
 
 ## ▶️ Running the Application
 
 1.  **(Optional) Data & Model Generation:**
-    *   To regenerate the synthetic data, run the notebook at `notebooks/01_data_preparation.ipynb`.
-    *   To retrain the classification model, run the notebook at `notebooks/03_classification_training.ipynb`.
+    *   `notebooks/01_data_preparation.ipynb`
+    *   `notebooks/03_classification_training.ipynb`
 
 2.  **Run the API Server:**
-    *   Navigate to the `api/` directory and start the server using Uvicorn.
+    *   Navigate to the `api/` directory and start the server.
     ```bash
     cd api
     uvicorn main:app --reload
     ```
-    *   The server will be available at `http://127.0.0.1:8000`.
-    *   Interactive API documentation is available at `http://127.0.0.1:8000/docs`.
+    *   Server is available at `http://127.0.0.1:8000`.
+    *   Interactive docs are available at `http://127.0.0.1:8000/docs`.
 
 ## 👥 Our Team
 
@@ -102,4 +102,4 @@ Follow these steps to set up and run the AI server locally.
 *   **UI/UX Design:** Muhammad Aulia Addinul Haq
 
 ---
-*PH-AIC AI Engine - Transforming Urban Emergency Response through AI*
+*SIAGA AI Engine - Transforming Urban Emergency Response through AI*
