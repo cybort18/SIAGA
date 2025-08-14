@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File konfigurasi lingkungan
+# JANGAN PERNAH unggah file .env yang berisi kunci API
+.env
+
+# File Kredensial Google Cloud
+# JANGAN PERNAH unggah file kredensial Anda
+gcp-credentials.json
+
+# Dependensi pihak ketiga
+ffmpeg/
+
+# Direktori output dari Hugging Face atau Jupyter
+results/
+logs/
+.ipynb_checkpoints/
+
+# Direktori audio temporary
+temp_audio/
+
+# Konfigurasi sistem operasi
+.DS_Store
+Thumbs.db

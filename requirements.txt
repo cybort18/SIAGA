@@ -1,0 +1,27 @@
+# requirements.txt (Versi dengan ffmpeg-python)
+
+# --- Untuk API ---
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+python-multipart
+
+# --- Untuk STT ---
+google-cloud-speech
+
+# --- Untuk NLP (NER & Klasifikasi) ---
+transformers
+torch
+sentencepiece
+accelerate
+
+# --- Untuk Data & Utility ---
+scikit-learn
+pandas
+jupyterlab
+ipywidgets
+
+# --- Untuk Audio ---
+gtts
+ffmpeg-python # <-- GANTI pydub DAN pyaudioop DENGAN INI
