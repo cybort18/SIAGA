@@ -14,7 +14,7 @@ from core.stt import transcribe_audio
 from core.nlp import extract_entities, classify_text
 
 app = FastAPI(
-    title="SIAGA 112 AI Engine",
+    title="SIAGA AI Engine",
     description="API untuk triase panggilan darurat menggunakan AI."
 )
 
