@@ -13,7 +13,7 @@
 
 This repository contains the **standalone AI Engine** that serves as the "brain" for the SIAGA project. It is a backend service responsible for all machine learning inference. It exposes a robust API that the main frontend application consumes.
 
-*   **Frontend & Main Project Repository:** [Link to your teammate's GitHub repository here]
+*   **Frontend & Main Project Repository:** [[Link GitHub repository](https://github.com/AL-Qudzzz/PH-AIC)]
 
 ## 🧠 The AI Workflow
 
